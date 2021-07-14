@@ -88,7 +88,7 @@ public class RSSFeedParser {
                     }
                 } else if (event.isEndElement()) {
                     if (event.asEndElement().getName().getLocalPart() == (ITEM)) {
-                        FeedMessage message = new FeedMessage();
+                        Job message = new Job();
                         message.setDescription(description);
                         message.setGuid(guid);
                         message.setLink(link);
