@@ -1,6 +1,6 @@
 package io.makepad.rss;
 
-public class FeedMessage {
+public class Job {
     String title;
     String region;
     String category;
