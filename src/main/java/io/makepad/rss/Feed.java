@@ -12,7 +12,7 @@ public class Feed {
     final String copyright;
     final String pubDate;
 
-    final List<FeedMessage> entries = new ArrayList<FeedMessage>();
+    final List<Job> entries = new ArrayList<Job>();
 
     public Feed(String title, String link, String description, String language,
                 String copyright, String pubDate) {
@@ -24,7 +24,7 @@ public class Feed {
         this.pubDate = pubDate;
     }
 
-    public List<FeedMessage> getMessages() {
+    public List<Job> getMessages() {
         return entries;
     }
 
