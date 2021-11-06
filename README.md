@@ -1,7 +1,7 @@
 # job-finder
 Selenium and RSS based Java job scraper.
 <div align="center">
-	<img src="" alt="Image" />
+	<img src="https://raw.githubusercontent.com/Makepad-fr/job-finder/boards/jobfinderlogo.png" alt="Image" />
 </div>
 
 <a href="https://foojay.io/today/works-with-openjdk">
